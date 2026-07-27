@@ -1,0 +1,19 @@
+ body
+{
+    /* font-family: 'segoe ui light';  */
+    background-color: #f8f9fa;
+}
+.table {
+    background-color: #f4faff; 
+    border-radius: 8px;
+    overflow: hidden; 
+}
+
+
+.table thead {
+    background-color: #343a40; 
+    color: #ffffff;
+}
+
+ 
+

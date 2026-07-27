@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="w-75 mx-auto py-4">
+        <h3 class="py-3 fw-bolder">Product Managment System</h3>
+
+        <label for="productNameInput">ProductName :</label>
+        <input type="text" onkeyup="validateProductName()" class="form-control mb-4 " id="productNameInput" >
+
+        <label for="productPriceInput">ProductPrice :</label>
+        <input type="number" onkeyup="validateProductPrice()" class="form-control mb-4 " id="productPriceInput" >
+
+        <label for="productCategoryInput">ProductCategory :</label>
+        <input type="text" onkeyup="validateProductCategory()" class="form-control mb-4 " id="productCategoryInput" >
+        
+        <label for="productDescriptionInput">ProductDescription :</label>
+        <textarea type="text" class="form-control mb-4 " id="productDescriptionInput" ></textarea>
+
+        <button id="addBtn" onclick=" addProduct(); " class="btn btn-outline-info">Add Product</button>
+        <button id="updateBtn" onclick="updateProduct()" class="btn d-none btn-outline-warning">Update Product</button>
+    </div>
+
+    <div class="w-50 mx-auto py-4">
+        <label for="searchProduct"></label>
+        <input type="text" oninput="searchProducts(this.value)" class="form-control" placeholder="search by name" name="" id="searchProduct">
+    </div>
+
+    <table class="table w-75 mx-auto mt-3">
+        <thead>
+            <th>index</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Category</th>
+            <th>Description</th>
+            <th>Update</th>
+            <th>Delete</th>
+        </thead>
+        <tbody id="tableBody">
+            
+        </tbody>
+    </table>
+    <script src="JS/main.js"></script>
+</body>
+</html>
