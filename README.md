@@ -3,6 +3,9 @@
 ## 📌 Project Overview
 A lightweight, fast, and responsive client-side web application designed to manage product inventories efficiently. Built entirely with Vanilla JavaScript, this project demonstrates strong foundational skills in DOM manipulation, state management using browser APIs, and strict data validation.
 
+## 🚀 Live Demo
+> **[Click here to view the live project](#)**
+
 ## 📸 Screenshots
 
 ### Main Interface & Data Table
