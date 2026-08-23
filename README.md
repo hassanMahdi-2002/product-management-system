@@ -4,7 +4,7 @@
 A lightweight, fast, and responsive client-side web application designed to manage product inventories efficiently. Built entirely with Vanilla JavaScript, this project demonstrates strong foundational skills in DOM manipulation, state management using browser APIs, and strict data validation.
 
 ## 🚀 Live Demo
-> **[Click here to view the live project](#)**
+> **[Click here to view the live project](https://hassanmahdi-2002.github.io/product-management-system/)**
 
 ## 📸 Screenshots
 
